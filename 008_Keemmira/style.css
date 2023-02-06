@@ -1,0 +1,35 @@
+body{ 
+    background-color: cadetblue;
+      
+    }
+
+    h1{
+        font-family: 'Roboto Slab', cursive;
+        font-size: 48px;
+        color: #8c3f58;
+        background-color: #D9B959;
+        font-weight: 100;
+        font-style: italic;
+    }
+    p{
+        background-color: #8c3f58;
+        font-size: 18 px;
+        color: green;
+    }
+    h2{
+        color: rgb(205, 211, 122);
+    }
+    li{
+        color: white;
+    }
+    table{
+        color: rgb(14, 11, 209);
+        background-color: coral;
+        border: 5px solid black;
+    }
+    label{
+        color: crimson;
+    }
+    a :hover {
+        color: chartreuse;
+    }

@@ -1,0 +1,119 @@
+้<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<style>
+    body{
+        background-color: rgb(250, 236, 214);
+    }
+    h1{
+        color: rgb(78, 108, 80);
+    }
+    label{
+        color: rgb(130, 0, 0);
+
+    }
+    input ,textarea{
+        color: rgb(78, 108, 80);
+
+    }
+    
+</style>
+<body>
+    <center><h1>แบบฝึกหัดที่ 3 : HTML Form</h1></center>
+    <center><h1>รหัสนักศึกษา 644011008 นางสาวคีมมิรา เพ็ชรบุรี</h1></center>
+    <center><h1>ฟอร์มลงทะเบียนศิษย์เก่าสาขา IT และ IS</h1></center>
+<center>
+    <form action="http://www.example.com" method="post"> 
+        <label for="name">ชื่อ-สกุล : </label>
+        <input type="text" name="customer_name">
+
+        <br><br>
+
+        <label for="password">รหัสนักศึกษา : </label>
+        <input type="password" name="password">
+
+        <br><br>
+
+        <label for="gender">เพศ : </label>
+        <input type="radio" name="gender"> หญิง
+        <input type="radio" name="gender"> ชาย
+        <input type="radio" name="gender"> อื่นๆ
+
+        <br><br>
+
+        <label for="name">ปีการศึกษาที่เข้าศึกษา : </label>
+        <input type="text" name="customer_name">
+
+        <br><br>
+
+        <label for="email">Email : </label>
+        <input type="email" name="customer_email">
+
+        <br><br>
+
+        <label for="username">เบอร์โทรติดต่อ : </label>
+        <input type="number" name="customer_tel">
+
+        <br><br>
+
+        <label for="channel">สาขา : </label>
+        <input type="radio" name="IT"> IT
+        <input type="radio" name="IS"> IS
+       
+       <br><br>
+    
+        <label for="address">ที่อยู่ :</label>
+        <textarea name="address"  cols="30" rows="10"></textarea>
+
+
+        <br><br>
+
+        <label for="username">อาชีพปัจจุบัน : </label>
+        <input type="number" name="customer_oc">
+
+        <br><br>
+
+        <label for="username">ชื่อบริษัทที่ทำงาน : </label>
+        <input type="number" name="customer_company">
+
+        <br><br>
+        <label for="address">ที่อยู่บริษัท :</label>
+        <textarea name="address"  cols="30" rows="10"></textarea>
+
+
+        <br><br>
+
+        <label for="province">ประเภทงาน : </label>
+        <select name="province">
+            <option value="01">Web Deverloper</option>
+            <option value="02">Digital Margeting</option>
+            <option value="03">SA</option>
+            <option value="04">Graphic Design</option>
+
+        </select>
+
+        <br><br>
+
+        <label for="picture">รูปภาพ :</label>
+        <input type="file" name="profile_pic">
+
+        <br><br>
+
+
+        <input type="submit" name="Submit" value="Submit">
+        <input type="reset" name="reset" value="Clear">
+    </form>
+
+
+   
+
+
+    <a href="index.html">HOME</a>
+</body>
+</html>
+</center>
